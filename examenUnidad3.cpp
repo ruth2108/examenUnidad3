@@ -32,6 +32,16 @@ main ()
                 i++;
                 }
                 break;
+                case 3: a=1;
+                i=1;
+                do
+                {
+                printf("%i\t",i);
+                a=a*i;
+                i++;
+                }
+                while (i<=n);
+                break;
                 default: printf("la opcion es incorrecta\n");
                 }
                 printf("el factorial de %i es %li \n",n,a);
@@ -41,4 +51,3 @@ main ()
                  }
                  while (r==1);
                  }
-                 
